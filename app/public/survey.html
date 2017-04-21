@@ -150,7 +150,7 @@
     <hr>
     <footer class="footer">
         <div class="container">
-            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/romanbrito/friendfinder">GitHub Repo</a></p>
         </div>
     </footer>
 
@@ -179,25 +179,43 @@
 
 <script type="text/javascript">
 
-$("#submit").on("click", function (event) {
-    event.preventDefault();
+    $("#submit").on("click", function (event) {
+        event.preventDefault();
 
-    var userData = {
-        name: $("#name").val(),
-        photo: $("#photo").val(),
-        scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
-    }
-    var currentURL = window.location.origin;
+        // form validation
+        function validateForm() {
+            var isValid = true;
+            $('.form-control').each(function () {
+                if ( $(this).val() == '') isValid = false
+            });
+            $('.chosen-select').each(function () {
+                if ( $(this).val() === '') isValid = false;
+            });
+            return isValid;
+        }
+        if (validateForm() == true) {
 
-    $.post(currentURL + "/api/new", userData, function (data) {
-        console.log(data);
-        $("#matchName").text("yauza" + data.name);
-       // check best match
+        var userData = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+        }
+        var currentURL = window.location.origin;
+        // save new user and return best match
 
-        //modal
-        $("#resultsModal").modal('toggle');
+        $.post(currentURL + "/api/friends", userData, function (data) {
+            $("#matchName").text("Best match: " + data.name);
+            $('#matchImg').attr("src", data.photo);
+            // check best match
+
+            //modal
+            $("#resultsModal").modal('toggle');
+        });
+        } else {
+            alert('Please fill out all fields before submitting!');
+        }
+        return false;
     });
-});
 
 </script>
 </body>
