@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93b452a-cb5b-4290-813d-d11406d92ccb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/friends.json" afterPath="$PROJECT_DIR$/app/data/friends.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/survey.html" afterPath="$PROJECT_DIR$/app/public/survey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routing/apiRoutes.js" afterPath="$PROJECT_DIR$/app/routing/apiRoutes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,27 +29,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="survey.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="survey.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/public/survey.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="598">
-                  <caret line="177" column="10" lean-forward="true" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="10" />
+                <state relative-caret-position="343">
+                  <caret line="162" column="29" lean-forward="true" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="775">
-                  <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="friends.json" pinned="false" current-in-tab="true">
+          <file leaf-file-name="friends.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/data/friends.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="880">
@@ -320,12 +307,12 @@
       <updated>1492391784311</updated>
       <workItem from="1492391785592" duration="18745000" />
       <workItem from="1492570917909" duration="5000" />
-      <workItem from="1492719134808" duration="24039000" />
+      <workItem from="1492719134808" duration="24280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42789000" />
+    <option name="totallyTimeSpent" value="43030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -434,22 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/survey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="177" column="10" lean-forward="true" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/friends.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -462,6 +433,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="162" column="29" lean-forward="true" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
           <folding />
         </state>
       </provider>
