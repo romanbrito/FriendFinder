@@ -1,3 +1,5 @@
+"use strict";
+
 var express = require('express');
 var router = express.Router();
 var path = require('path');
@@ -16,7 +18,6 @@ router.get('/api/friends', function (req, res) {
 });
 
 router.post('/api/friends', function(req, res) {
-    var friends = friendsData;
     function sumArraysABS ( array1, array2) {
         var arrDiff = array1.map(function (num, idx) {
             return Math.abs(num - array2[idx]);
@@ -26,25 +27,38 @@ router.post('/api/friends', function(req, res) {
         }, 0);
         return sum;
     }
+
     var newuser = req.body;
 
     var bestMatcharr = [];
 
-    for (var i = 0; i < friends.length; i++) {
-        var sum = sumArraysABS(newuser.scores, friends[i].scores);
-        friends[i].diff = sum;
-        bestMatcharr.push(friends[i]);
+    for (var i = 0; i < friendsData.length; i++) {
+        var sum = sumArraysABS(newuser.scores, friendsData[i].scores);
+        friendsData[i].diff = sum;
+        bestMatcharr.push(friendsData[i]);
     }
 
     bestMatcharr.sort(function (a, b) {
         return a.diff - b.diff;
     });
 
-    res.json(bestMatcharr[0]);
+    res.json(bestMatcharr[0]);//
 
-    friendsData.push(newuser);
-    fs.writeFile('app/data/friends.json', JSON.stringify(friendsData), 'utf8', function (err) { //save new user in file
-       console.log(err);
+    // remove .diff from object
+    var friendsobj = [];
+    for (var i = 0; i < friendsData.length; i++) {
+        friendsobj.push(
+            {name: friendsData[i].name,
+            photo: friendsData[i].photo,
+            scores: friendsData[i].scores
+            }
+        );
+    }
+    friendsobj.push(newuser);
+
+    friendsData = friendsobj;
+    fs.writeFile('app/data/friends.json', JSON.stringify(friendsobj), 'utf8', function (err) { //save file
+       console.log("error " + err);
     });
 });
 

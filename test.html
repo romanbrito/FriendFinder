@@ -32,43 +32,59 @@
 //    var arr = [100, 2, 3];
 //    var min = Math.min(...arr);
 
-var newuser = {"name":"newOne","photo":"newOne","scores":["3","2","3","2","5","3","3","2","4","3"]}
+//var newuser = {"name":"newOne","photo":"newOne","scores":["3","2","3","2","5","3","3","2","4","3"]}
+//
+//    var friendsData = [
+//        {"name":"roman","photo":"brito","scores":["1","1","1","2","4","3","3","2","4","3"]},
+//        {"name":"roman2","photo":"brito","scores":["1","2","3","2","4","3","3","2","4","3"]},
+//        {"name":"omar","photo":"brito","scores":["4","5","5","5","5","5","5","5","5","5"]},
+//        {"name":"roman3","photo":"roman.jpb","scores":["1","1","1","1","1","1","1","1","1","1"]},
+//        {"name":"roman4","photo":"roman.jpb","scores":["1","2","3","2","4","3","3","2","4","4"]}
+//
+//        ];
+//
+//function sumArraysABS ( array1, array2) {
+//    var arrDiff = array1.map(function (num, idx) {
+//        return Math.abs(num - array2[idx]);
+//    });
+//    var sum = arrDiff.reduce(function (a, b) {
+//        return a + b;
+//    }, 0);
+//    return sum;
+//}
+//
+//var bestMatcharr = [];
+//$.each(friendsData,function (index, value) {
+////    console.log(index + ": " + value.name);
+//    var sum = sumArraysABS(newuser.scores, friendsData[index].scores);
+//    friendsData[index].diff = sum;
+//
+//  //  console.log(friendsData[index]);
+//
+//    bestMatcharr.push(friendsData[index]);
+//});
+//
+//bestMatcharr.sort(function (a, b) {
+//    return a.diff - b.diff;
+//});
+//
+//console.log(bestMatcharr[0]);
 
-    var friendsData = [
-        {"name":"roman","photo":"brito","scores":["1","1","1","2","4","3","3","2","4","3"]},
-        {"name":"roman2","photo":"brito","scores":["1","2","3","2","4","3","3","2","4","3"]},
-        {"name":"omar","photo":"brito","scores":["4","5","5","5","5","5","5","5","5","5"]},
-        {"name":"roman3","photo":"roman.jpb","scores":["1","1","1","1","1","1","1","1","1","1"]},
-        {"name":"roman4","photo":"roman.jpb","scores":["1","2","3","2","4","3","3","2","4","4"]}
+function _objectWithoutProperties(obj, keys) {
+    var target = {};
 
-        ];
-
-function sumArraysABS ( array1, array2) {
-    var arrDiff = array1.map(function (num, idx) {
-        return Math.abs(num - array2[idx]);
-    });
-    var sum = arrDiff.reduce(function (a, b) {
-        return a + b;
-    }, 0);
-    return sum;
+    for (var i in obj) {
+        if (keys.indexOf(i) >= 0) continue;
+        if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;
+        target[i] = obj[i]; }
+    return target;
 }
 
-var bestMatcharr = [];
-$.each(friendsData,function (index, value) {
-//    console.log(index + ": " + value.name);
-    var sum = sumArraysABS(newuser.scores, friendsData[index].scores);
-    friendsData[index].diff = sum;
+var x = { a: 1, b: 2, c: 3, z: 26 };
+var b = x.b;
 
-  //  console.log(friendsData[index]);
+var y = _objectWithoutProperties(x, ["b"]);
 
-    bestMatcharr.push(friendsData[index]);
-});
-
-bestMatcharr.sort(function (a, b) {
-    return a.diff - b.diff;
-});
-
-console.log(bestMatcharr[0]);
 
 //var bestMatch = bestMatcharr[0];
 //for (var i = 0; i < bestMatcharr.length-1; i++) {
