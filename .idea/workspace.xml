@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93b452a-cb5b-4290-813d-d11406d92ccb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/friends.json" afterPath="$PROJECT_DIR$/app/data/friends.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,21 +20,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="survey.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="survey.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/public/survey.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="343">
-                  <caret line="162" column="29" lean-forward="true" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
+                  <caret line="162" column="29" lean-forward="false" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -43,7 +44,7 @@
             <entry file="file://$PROJECT_DIR$/app/data/friends.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="880">
-                  <caret line="80" column="3" lean-forward="false" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+                  <caret line="64" column="3" lean-forward="false" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -52,12 +53,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="apiRoutes.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/routing/apiRoutes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="918">
-                  <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+                <state relative-caret-position="459">
+                  <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -88,8 +89,8 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app/public/survey.html" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/app/data/friends.json" />
         <option value="$PROJECT_DIR$/app/routing/apiRoutes.js" />
+        <option value="$PROJECT_DIR$/app/data/friends.json" />
       </list>
     </option>
   </component>
@@ -131,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,7 +201,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -307,12 +308,14 @@
       <updated>1492391784311</updated>
       <workItem from="1492391785592" duration="18745000" />
       <workItem from="1492570917909" duration="5000" />
-      <workItem from="1492719134808" duration="24280000" />
+      <workItem from="1492719134808" duration="24356000" />
+      <workItem from="1492749087379" duration="21000" />
+      <workItem from="1492914849815" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43030000" />
+    <option name="totallyTimeSpent" value="43246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -359,6 +362,70 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/friends.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="3" lean-forward="false" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="162" column="29" lean-forward="false" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routing/apiRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/friends.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="3" lean-forward="false" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="162" column="29" lean-forward="true" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routing/apiRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
@@ -369,7 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -385,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -409,14 +474,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/test.html" />
+    <entry file="file://$PROJECT_DIR$/app/public/survey.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="343">
+          <caret line="162" column="29" lean-forward="false" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -424,31 +489,23 @@
     <entry file="file://$PROJECT_DIR$/app/data/friends.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="80" column="3" lean-forward="false" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+          <caret line="64" column="3" lean-forward="false" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routing/apiRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state relative-caret-position="459">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/survey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="162" column="29" lean-forward="true" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
